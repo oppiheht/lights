@@ -1,0 +1,8 @@
+[Unit]
+Description=All of the lights.
+
+[Service]
+ExecStart=sudo /usr/bin/python3 /home/pi/dev/neopixel/rpi_example.py
+
+[Install]
+WantedBy=multi-user.target
